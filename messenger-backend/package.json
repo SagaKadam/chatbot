@@ -1,0 +1,20 @@
+{
+  "name": "messenger-backend",
+  "version": "1.0.0",
+  "description": "chat application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "start index.js"
+  },
+  "author": "Sagar Kadam",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-ws": "^4.0.0",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
